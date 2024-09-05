@@ -6,73 +6,74 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(94.3deg, rgba(26, 33, 64, 1) 10.9%, rgba(81, 84, 115, 1) 87.1%);
+    background-image: linear-gradient(94.3deg, rgb(103, 142, 216) 10.9%, rgb(128, 136, 225) 87.1%);
 }
 
-.container{
-    background-color: bisque;
+.container {
     display: flex;
     width: 900px;
     height: 600px;
     border-radius: 1.5em;
     padding: 1em;
-    gap: 1em;
+    gap: 0.5em;
 }
 
 
-.row{
-    border: 2px solid blue;
+.row {
     border-radius: 1.5em;
 }
 
 
-.row-1{
+.row-1 {
     flex: 2;
-    display:flex ;
+    display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: 0.5em;
 }
 
-.col{
-    border: 1px solid red;
+.col {
     border-radius: 1.5em;
     flex: 1;
     display: flex;
-    gap: 1em;
+    gap: 0.5em;
 }
 
-.col.col-2{
+.col.col-2 {
     display: flex;
     flex: 1;
     flex-direction: column;
-    gap: 1em;
+    gap: 0.5em;
 }
 
- 
-.col-box
-{
-    border: 1px solid brown;
+
+.col-box {
+    background: rgba(95, 94, 94, 0.3);
+    border: 1px solid rgb(49, 49, 53);
+    backdrop-filter:blur(50px);
     border-radius: 2em;
     flex: 1;
-} 
-
-.row-2{
-    flex: 1;
-    display: flex;
-    flex-direction:column ;   
-    gap: 1em; 
 }
 
-
-.box{
-    flex:1;
-    border: 3px solid yellowgreen;
-}
-
-.row-3{
+.row-2 {
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: 0.5em;
+}
+
+
+.box {
+    background: rgba(95, 94, 94, 0.3);
+    border: 1px solid rgb(49, 49, 53);
+    backdrop-filter:blur(50px);
+    border-radius: 2em;
+    flex: 1;
+}
+
+.row-3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
 }
 
