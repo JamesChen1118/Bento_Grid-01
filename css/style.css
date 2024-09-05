@@ -1,0 +1,78 @@
+@import url(./reset.css);
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(94.3deg, rgba(26, 33, 64, 1) 10.9%, rgba(81, 84, 115, 1) 87.1%);
+}
+
+.container{
+    background-color: bisque;
+    display: flex;
+    width: 900px;
+    height: 600px;
+    border-radius: 1.5em;
+    padding: 1em;
+    gap: 1em;
+}
+
+
+.row{
+    border: 2px solid blue;
+    border-radius: 1.5em;
+}
+
+
+.row-1{
+    flex: 2;
+    display:flex ;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.col{
+    border: 1px solid red;
+    border-radius: 1.5em;
+    flex: 1;
+    display: flex;
+    gap: 1em;
+}
+
+.col.col-2{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 1em;
+}
+
+ 
+.col-box
+{
+    border: 1px solid brown;
+    border-radius: 2em;
+    flex: 1;
+} 
+
+.row-2{
+    flex: 1;
+    display: flex;
+    flex-direction:column ;   
+    gap: 1em; 
+}
+
+
+.box{
+    flex:1;
+    border: 3px solid yellowgreen;
+}
+
+.row-3{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+

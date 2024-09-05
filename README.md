@@ -1,2 +1,8 @@
-# Bento_Grid-01
-Bento Grid 設計練習 01
+## Bento Grid 設計練習 01
+2024/09/05
+
+* 整體用flex去做排版
+  * 先分割左右兩區域
+  * 在劃分3個column區域
+  * 在依照每個區域用flex分隔不同區塊
+  
