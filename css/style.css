@@ -23,7 +23,7 @@ body {
     border-radius: 1.5em;
 }
 
-
+/* ------- Use flex layout to divide areas arranged in the row direction with flex: 2. -------*/
 .row-1 {
     flex: 2;
     display: flex;
@@ -31,6 +31,7 @@ body {
     gap: 0.5em;
 }
 
+/*------- Divide areas arranged in the column direction ------- */
 .col {
     border-radius: 1.5em;
     flex: 1;
@@ -38,6 +39,7 @@ body {
     gap: 0.5em;
 }
 
+/* Use flex layout to divide areas arranged in the row direction with flex: 1 */
 .col.col-2 {
     display: flex;
     flex: 1;
@@ -49,7 +51,7 @@ body {
 .col-box {
     background: rgba(95, 94, 94, 0.3);
     border: 1px solid rgb(49, 49, 53);
-    backdrop-filter:blur(50px);
+    backdrop-filter: blur(50px);
     border-radius: 2em;
     flex: 1;
 }
@@ -65,7 +67,7 @@ body {
 .box {
     background: rgba(95, 94, 94, 0.3);
     border: 1px solid rgb(49, 49, 53);
-    backdrop-filter:blur(50px);
+    backdrop-filter: blur(50px);
     border-radius: 2em;
     flex: 1;
 }
@@ -77,3 +79,44 @@ body {
     gap: 0.5em;
 }
 
+/*------- Every box hover effect -------*/
+/* .box , .col-box:hover{
+    
+} */
+
+/*------- Responsiveness Design -------*/
+@media(max-width:1024px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .row-1 {
+        flex-direction: row;
+    }
+
+    .row-2 {
+        flex-direction: row;
+    }
+
+    .row-3 {
+        flex-direction: row;
+    }
+
+    .col {
+        flex: 2;
+        flex-direction: column;
+    }
+}
+@media(max-width:650px) {
+    .container{
+        max-width: 900px;
+        min-height: 550px;
+        gap: 0.5em;
+    }
+    .row{
+        gap: 0.5em;
+    }
+    .col{
+        gap: 0.5em;
+    }
+}
