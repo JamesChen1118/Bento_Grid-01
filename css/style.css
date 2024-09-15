@@ -54,6 +54,7 @@ body {
     backdrop-filter: blur(50px);
     border-radius: 2em;
     flex: 1;
+    transition: 0.3s ease-in-out;
 }
 
 .row-2 {
@@ -70,6 +71,7 @@ body {
     backdrop-filter: blur(50px);
     border-radius: 2em;
     flex: 1;
+    transition: 0.3s ease-in-out;
 }
 
 .row-3 {
@@ -80,9 +82,15 @@ body {
 }
 
 /*------- Every box hover effect -------*/
-/* .box , .col-box:hover{
-    
-} */
+.box:hover{
+    transform: scale(1.02);
+    border:3px solid  #ffffff50 ;
+}
+
+.col-box:hover{
+    transform: scale(1.02);
+    border:3px solid  #ffffff50 ;
+}
 
 /*------- Responsiveness Design -------*/
 @media(max-width:1024px) {
